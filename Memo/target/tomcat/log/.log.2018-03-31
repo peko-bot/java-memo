@@ -1,0 +1,454 @@
+2018-03-31 20:40:49 744 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 20:40:49 869 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 20:40:49 CST 2018]; root of context hierarchy
+2018-03-31 20:40:49 931 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 20:40:50 460 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 20:40:51 033 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:40:51 169 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:40:51 528 INFO  [MLog-Init-Reporter] [MLog:124] MLog clients using log4j logging.
+2018-03-31 20:40:51 553 INFO  [localhost-startStop-1] [C3P0Registry:248] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2018-03-31 20:40:52 327 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 20:40:52 347 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 20:40:52 357 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 20:40:52 364 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 20:40:53 264 INFO  [localhost-startStop-1] [AbstractPoolBackedDataSource:527] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge0yu9uyfcj0p1me7vr1|3e9b6140, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> net.sourceforge.jtds.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge0yu9uyfcj0p1me7vr1|3e9b6140, idleConnectionTestPeriod -> 28000, initialPoolSize -> 10, jdbcUrl -> jdbc:jtds:sqlserver://localhost:1433;DatabaseName=Wiki_20161218;SelectMethod=Cursor, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 28000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2018-03-31 20:43:43 576 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 20:43:43 635 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 20:43:43 CST 2018]; root of context hierarchy
+2018-03-31 20:43:43 684 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 20:43:44 060 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 20:43:44 319 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:43:44 380 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:43:44 496 INFO  [MLog-Init-Reporter] [MLog:124] MLog clients using log4j logging.
+2018-03-31 20:43:44 548 INFO  [localhost-startStop-1] [C3P0Registry:248] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2018-03-31 20:43:44 986 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 20:43:44 995 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 20:43:44 998 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 20:43:45 000 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 20:43:45 444 INFO  [localhost-startStop-1] [AbstractPoolBackedDataSource:527] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge0yu9uyfg8ih1www17v|76f0e272, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> net.sourceforge.jtds.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge0yu9uyfg8ih1www17v|76f0e272, idleConnectionTestPeriod -> 28000, initialPoolSize -> 10, jdbcUrl -> jdbc:jtds:sqlserver://localhost:1433;DatabaseName=StrongMain_LY;SelectMethod=Cursor, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 28000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2018-03-31 20:49:44 493 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 20:49:44 580 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 20:49:44 CST 2018]; root of context hierarchy
+2018-03-31 20:49:44 626 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 20:49:44 995 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 20:49:45 244 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:49:45 303 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:49:45 412 INFO  [MLog-Init-Reporter] [MLog:124] MLog clients using log4j logging.
+2018-03-31 20:49:45 467 INFO  [localhost-startStop-1] [C3P0Registry:248] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2018-03-31 20:49:46 015 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 20:49:46 029 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 20:49:46 032 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 20:49:46 034 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 20:49:46 545 INFO  [localhost-startStop-1] [AbstractPoolBackedDataSource:527] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge0yu9uyfnz001ol79m7|6dbc57e8, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> net.sourceforge.jtds.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge0yu9uyfnz001ol79m7|6dbc57e8, idleConnectionTestPeriod -> 28000, initialPoolSize -> 10, jdbcUrl -> jdbc:jtds:sqlserver://localhost:1433;DatabaseName=StrongMain_LY;SelectMethod=Cursor, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 28000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2018-03-31 20:54:44 942 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 20:54:45 011 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 20:54:45 CST 2018]; root of context hierarchy
+2018-03-31 20:54:45 062 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 20:54:45 512 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 20:54:45 960 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:54:46 024 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:54:46 156 INFO  [MLog-Init-Reporter] [MLog:124] MLog clients using log4j logging.
+2018-03-31 20:54:46 235 INFO  [localhost-startStop-1] [C3P0Registry:248] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2018-03-31 20:54:46 551 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 20:54:46 563 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 20:54:46 566 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 20:54:46 568 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 20:54:47 098 INFO  [localhost-startStop-1] [AbstractPoolBackedDataSource:527] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge0yu9uyfuf2k2vebn6|2f1ee75d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> net.sourceforge.jtds.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge0yu9uyfuf2k2vebn6|2f1ee75d, idleConnectionTestPeriod -> 28000, initialPoolSize -> 10, jdbcUrl -> jdbc:jtds:sqlserver://localhost:1433;DatabaseName=Memo;SelectMethod=Cursor, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 28000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2018-03-31 20:56:01 149 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 20:56:01 203 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 20:56:01 CST 2018]; root of context hierarchy
+2018-03-31 20:56:01 257 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 20:56:01 629 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 20:56:01 979 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:56:02 041 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:56:02 155 INFO  [MLog-Init-Reporter] [MLog:124] MLog clients using log4j logging.
+2018-03-31 20:56:02 236 INFO  [localhost-startStop-1] [C3P0Registry:248] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2018-03-31 20:56:02 549 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 20:56:02 558 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 20:56:02 561 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 20:56:02 563 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 20:56:03 001 INFO  [localhost-startStop-1] [AbstractPoolBackedDataSource:527] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge0yu9uyfw1pf1c0hpi6|75565884, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> net.sourceforge.jtds.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge0yu9uyfw1pf1c0hpi6|75565884, idleConnectionTestPeriod -> 28000, initialPoolSize -> 10, jdbcUrl -> jdbc:jtds:sqlserver://localhost:1433;DatabaseName=Memo;SelectMethod=Cursor, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 28000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2018-03-31 20:57:43 502 WARN  [C3P0PooledConnectionPoolManager[identityToken->1hge0yu9uyfw1pf1c0hpi6|75565884]-HelperThread-#2] [BasicResourcePool:1911] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@52d4bc82 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Network error IOException: Connection refused: connect
+	at net.sourceforge.jtds.jdbc.JtdsConnection.<init>(JtdsConnection.java:436)
+	at net.sourceforge.jtds.jdbc.Driver.connect(Driver.java:184)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at net.sourceforge.jtds.jdbc.SharedSocket.createSocketForJDBC3(SharedSocket.java:288)
+	at net.sourceforge.jtds.jdbc.SharedSocket.<init>(SharedSocket.java:251)
+	at net.sourceforge.jtds.jdbc.JtdsConnection.<init>(JtdsConnection.java:331)
+	... 10 more
+2018-03-31 20:57:43 561 WARN  [C3P0PooledConnectionPoolManager[identityToken->1hge0yu9uyfw1pf1c0hpi6|75565884]-HelperThread-#2] [BasicResourcePool:946] Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@78c2985d is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-03-31 20:57:43 639 WARN  [localhost-startStop-1] [JdbcServicesImpl:169] HHH000342: Could not obtain connection to query metadata : Connections could not be acquired from the underlying database!
+2018-03-31 20:57:43 950 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-03-31 20:57:43 997 INFO  [localhost-startStop-1] [LobCreatorBuilder:85] HHH000422: Disabling contextual LOB creation as connection was null
+2018-03-31 20:57:44 022 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-03-31 20:57:44 056 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-03-31 20:57:44 558 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yu9uyfw1pf1c0hpi6|75565884, dataSourceName -> 1hge0yu9uyfw1pf1c0hpi6|75565884 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-03-31 20:57:44 746 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 103595 ms
+2018-03-31 20:57:44 841 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-31 20:57:44 845 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 31 20:57:44 CST 2018]; parent: Root WebApplicationContext
+2018-03-31 20:57:44 846 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-03-31 20:57:44 943 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-03-31 20:57:45 094 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 20:57:45 610 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-03-31 20:57:45 610 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-03-31 20:57:45 611 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-03-31 20:57:45 611 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-03-31 20:57:45 611 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-03-31 20:57:45 612 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-03-31 20:57:46 206 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1365 ms
+2018-03-31 20:57:46 697 WARN  [C3P0PooledConnectionPoolManager[identityToken->1hge0yu9uyfw1pf1c0hpi6|75565884]-HelperThread-#2] [BasicResourcePool:1911] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@f44d438 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Network error IOException: Connection refused: connect
+	at net.sourceforge.jtds.jdbc.JtdsConnection.<init>(JtdsConnection.java:436)
+	at net.sourceforge.jtds.jdbc.Driver.connect(Driver.java:184)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at net.sourceforge.jtds.jdbc.SharedSocket.createSocketForJDBC3(SharedSocket.java:288)
+	at net.sourceforge.jtds.jdbc.SharedSocket.<init>(SharedSocket.java:251)
+	at net.sourceforge.jtds.jdbc.JtdsConnection.<init>(JtdsConnection.java:331)
+	... 10 more
+2018-03-31 20:57:46 698 WARN  [C3P0PooledConnectionPoolManager[identityToken->1hge0yu9uyfw1pf1c0hpi6|75565884]-HelperThread-#2] [BasicResourcePool:946] Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@78c2985d is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-03-31 20:57:46 704 WARN  [C3P0PooledConnectionPoolManager[identityToken->1hge0yu9uyfw1pf1c0hpi6|75565884]-HelperThread-#0] [BasicResourcePool:1911] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@579e59e7 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Network error IOException: Connection refused: connect
+	at net.sourceforge.jtds.jdbc.JtdsConnection.<init>(JtdsConnection.java:436)
+	at net.sourceforge.jtds.jdbc.Driver.connect(Driver.java:184)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at net.sourceforge.jtds.jdbc.SharedSocket.createSocketForJDBC3(SharedSocket.java:288)
+	at net.sourceforge.jtds.jdbc.SharedSocket.<init>(SharedSocket.java:251)
+	at net.sourceforge.jtds.jdbc.JtdsConnection.<init>(JtdsConnection.java:331)
+	... 10 more
+2018-03-31 20:57:46 705 WARN  [C3P0PooledConnectionPoolManager[identityToken->1hge0yu9uyfw1pf1c0hpi6|75565884]-HelperThread-#0] [BasicResourcePool:946] Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@78c2985d is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-03-31 20:57:47 698 WARN  [C3P0PooledConnectionPoolManager[identityToken->1hge0yu9uyfw1pf1c0hpi6|75565884]-HelperThread-#1] [BasicResourcePool:1911] com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@463809a8 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Network error IOException: Connection refused: connect
+	at net.sourceforge.jtds.jdbc.JtdsConnection.<init>(JtdsConnection.java:436)
+	at net.sourceforge.jtds.jdbc.Driver.connect(Driver.java:184)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at net.sourceforge.jtds.jdbc.SharedSocket.createSocketForJDBC3(SharedSocket.java:288)
+	at net.sourceforge.jtds.jdbc.SharedSocket.<init>(SharedSocket.java:251)
+	at net.sourceforge.jtds.jdbc.JtdsConnection.<init>(JtdsConnection.java:331)
+	... 10 more
+2018-03-31 20:57:47 700 WARN  [C3P0PooledConnectionPoolManager[identityToken->1hge0yu9uyfw1pf1c0hpi6|75565884]-HelperThread-#1] [BasicResourcePool:946] Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@78c2985d is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-03-31 21:01:28 236 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:01:28 295 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:01:28 CST 2018]; root of context hierarchy
+2018-03-31 21:01:28 344 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:01:28 695 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:01:28 925 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:01:28 983 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:01:29 430 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:01:29 438 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:01:29 442 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:01:29 444 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:11:09 706 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:11:09 769 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:11:09 CST 2018]; root of context hierarchy
+2018-03-31 21:11:09 822 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:11:10 178 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:11:10 559 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:11:10 616 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:11:11 168 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:11:11 176 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:11:11 180 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:11:11 181 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:16:20 502 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:16:20 613 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:16:20 CST 2018]; root of context hierarchy
+2018-03-31 21:16:20 682 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:16:21 374 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:16:21 649 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:16:21 714 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:16:22 163 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:16:22 173 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:16:22 176 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:16:22 179 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:19:17 874 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:19:17 957 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:19:17 CST 2018]; root of context hierarchy
+2018-03-31 21:19:18 022 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:19:18 522 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:19:18 811 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:19:18 900 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:19:19 464 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:19:19 474 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:19:19 478 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:19:19 480 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:21:00 494 WARN  [localhost-startStop-1] [JdbcServicesImpl:169] HHH000342: Could not obtain connection to query metadata : Connections could not be acquired from the underlying database!
+2018-03-31 21:21:00 554 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-03-31 21:21:00 586 INFO  [localhost-startStop-1] [LobCreatorBuilder:85] HHH000422: Disabling contextual LOB creation as connection was null
+2018-03-31 21:21:00 625 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-03-31 21:21:00 647 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-03-31 21:21:01 139 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yu9uygpzjf1kk7j0r|5ef5ed1, dataSourceName -> 1hge0yu9uygpzjf1kk7j0r|5ef5ed1 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-03-31 21:21:01 390 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 103511 ms
+2018-03-31 21:21:01 524 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-31 21:21:01 531 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 31 21:21:01 CST 2018]; parent: Root WebApplicationContext
+2018-03-31 21:21:01 531 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-03-31 21:21:01 690 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-03-31 21:21:01 969 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:21:02 961 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-03-31 21:21:02 962 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-03-31 21:21:02 962 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-03-31 21:21:02 963 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-03-31 21:21:02 963 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-03-31 21:21:02 963 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-03-31 21:21:03 305 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1780 ms
+2018-03-31 21:31:13 896 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:31:13 954 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:31:13 CST 2018]; root of context hierarchy
+2018-03-31 21:31:14 002 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:31:14 370 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:31:14 607 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:31:14 666 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:31:15 297 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:31:15 356 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:31:15 364 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:31:15 368 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:32:46 156 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:32:46 212 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:32:46 CST 2018]; root of context hierarchy
+2018-03-31 21:32:46 254 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:32:46 639 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:32:46 867 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:32:46 930 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:32:47 389 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:32:47 397 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:32:47 401 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:32:47 403 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:33:54 720 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:33:54 804 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:33:54 CST 2018]; root of context hierarchy
+2018-03-31 21:33:54 875 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:33:55 485 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:33:55 799 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:33:55 878 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:33:56 379 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:33:56 391 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:33:56 395 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:33:56 397 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:36:36 387 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:36:36 477 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:36:36 CST 2018]; root of context hierarchy
+2018-03-31 21:36:36 552 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:36:36 980 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:36:37 236 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:36:37 298 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:36:37 789 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:36:37 802 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:36:37 809 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:36:37 816 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:40:27 308 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:40:27 425 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:40:27 CST 2018]; root of context hierarchy
+2018-03-31 21:40:27 503 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:40:28 087 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:40:28 349 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:40:28 410 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:40:28 847 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:40:28 856 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:40:28 859 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:40:28 862 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:41:17 092 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:41:17 198 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:41:17 CST 2018]; root of context hierarchy
+2018-03-31 21:41:17 281 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:41:17 878 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:41:18 121 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:41:18 182 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:41:18 633 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:41:18 646 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:41:18 652 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:41:18 654 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:44:53 001 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:44:53 065 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:44:53 CST 2018]; root of context hierarchy
+2018-03-31 21:44:53 110 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:44:53 460 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:44:53 680 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:44:53 760 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:44:54 272 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:44:54 280 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:44:54 284 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:44:54 286 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:46:40 789 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:46:40 872 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:46:40 CST 2018]; root of context hierarchy
+2018-03-31 21:46:40 937 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:46:41 432 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:46:41 738 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:46:41 829 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:46:42 341 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:46:42 357 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:46:42 361 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:46:42 364 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:48:12 880 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:48:12 958 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:48:12 CST 2018]; root of context hierarchy
+2018-03-31 21:48:13 036 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:48:13 584 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:48:13 899 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:48:13 963 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:48:14 432 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:48:14 441 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:48:14 444 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:48:14 446 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 21:49:56 131 WARN  [localhost-startStop-1] [JdbcServicesImpl:169] HHH000342: Could not obtain connection to query metadata : Connections could not be acquired from the underlying database!
+2018-03-31 21:49:56 181 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-03-31 21:49:56 210 INFO  [localhost-startStop-1] [LobCreatorBuilder:85] HHH000422: Disabling contextual LOB creation as connection was null
+2018-03-31 21:49:56 260 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-03-31 21:49:56 287 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-03-31 21:49:56 604 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yu9uyhr6ab5krbzy|57a9b740, dataSourceName -> 1hge0yu9uyhr6ab5krbzy|57a9b740 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-03-31 21:49:56 784 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 103899 ms
+2018-03-31 21:49:56 954 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-31 21:49:56 961 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 31 21:49:56 CST 2018]; parent: Root WebApplicationContext
+2018-03-31 21:49:56 961 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-03-31 21:49:57 094 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-03-31 21:49:57 313 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:49:58 062 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-03-31 21:49:58 063 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-03-31 21:49:58 063 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-03-31 21:49:58 064 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-03-31 21:49:58 064 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-03-31 21:49:58 064 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-03-31 21:49:58 338 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1383 ms
+2018-03-31 21:57:56 354 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 21:57:56 419 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 21:57:56 CST 2018]; root of context hierarchy
+2018-03-31 21:57:56 470 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 21:57:56 858 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 21:57:57 236 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:57:57 358 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 21:57:57 888 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 21:57:57 897 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 21:57:57 900 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 21:57:57 903 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 22:01:46 789 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 22:01:46 905 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 22:01:46 CST 2018]; root of context hierarchy
+2018-03-31 22:01:46 975 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 22:01:47 537 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 22:01:47 781 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 22:01:47 840 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 22:01:48 293 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 22:01:48 304 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 22:01:48 307 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 22:01:48 310 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 22:01:49 266 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-03-31 22:01:49 290 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-03-31 22:01:49 318 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-03-31 22:01:49 351 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-03-31 22:01:50 725 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yu9uyi8mar5qkfrc|5ef5ed1, dataSourceName -> 1hge0yu9uyi8mar5qkfrc|5ef5ed1 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-03-31 22:01:50 982 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 4187 ms
+2018-03-31 22:01:51 264 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-31 22:01:51 268 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 31 22:01:51 CST 2018]; parent: Root WebApplicationContext
+2018-03-31 22:01:51 269 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-03-31 22:01:51 347 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-03-31 22:01:51 675 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 22:01:53 034 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-03-31 22:01:53 034 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-03-31 22:01:53 035 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-03-31 22:01:53 035 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-03-31 22:01:53 035 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-03-31 22:01:53 036 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-03-31 22:01:53 317 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 2052 ms
+2018-03-31 22:04:23 915 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 22:04:23 972 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 22:04:23 CST 2018]; root of context hierarchy
+2018-03-31 22:04:24 016 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 22:04:24 386 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 22:04:24 607 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 22:04:24 672 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 22:04:25 204 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 22:04:25 213 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 22:04:25 216 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 22:04:25 218 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 22:04:26 336 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-03-31 22:04:26 368 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-03-31 22:04:26 402 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-03-31 22:04:26 419 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-03-31 22:04:26 912 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yu9uyibzbo8gmw4j|15e2f7fe, dataSourceName -> 1hge0yu9uyibzbo8gmw4j|15e2f7fe ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-03-31 22:04:27 150 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3232 ms
+2018-03-31 22:04:27 234 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-31 22:04:27 238 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 31 22:04:27 CST 2018]; parent: Root WebApplicationContext
+2018-03-31 22:04:27 239 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-03-31 22:04:27 326 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-03-31 22:04:27 455 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 22:04:27 956 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-03-31 22:04:27 957 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-03-31 22:04:27 958 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-03-31 22:04:27 958 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-03-31 22:04:27 958 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-03-31 22:04:27 959 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-03-31 22:04:28 230 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 995 ms
+2018-03-31 22:05:25 300 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-03-31 22:05:25 392 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Mar 31 22:05:25 CST 2018]; root of context hierarchy
+2018-03-31 22:05:25 497 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-31 22:05:26 071 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-03-31 22:05:26 513 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 22:05:26 615 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 22:05:27 253 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-03-31 22:05:27 267 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-03-31 22:05:27 270 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-03-31 22:05:27 272 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-03-31 22:05:28 347 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-03-31 22:05:28 390 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-03-31 22:05:28 462 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-03-31 22:05:28 476 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-03-31 22:05:29 108 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yu9uyidb6o1gbtsto|669abe1f, dataSourceName -> 1hge0yu9uyidb6o1gbtsto|669abe1f ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-03-31 22:05:29 321 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 4017 ms
+2018-03-31 22:05:29 421 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-31 22:05:29 426 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 31 22:05:29 CST 2018]; parent: Root WebApplicationContext
+2018-03-31 22:05:29 427 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-03-31 22:05:29 544 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-03-31 22:05:29 665 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-31 22:05:30 196 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-03-31 22:05:30 197 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-03-31 22:05:30 197 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-03-31 22:05:30 198 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-03-31 22:05:30 198 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-03-31 22:05:30 198 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-03-31 22:05:30 527 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1106 ms

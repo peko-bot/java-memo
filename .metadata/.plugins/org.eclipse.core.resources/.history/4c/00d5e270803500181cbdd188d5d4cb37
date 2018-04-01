@@ -1,0 +1,10 @@
+package com.orz.po;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Base_User")
+public class GBF_Item_Info {
+
+}

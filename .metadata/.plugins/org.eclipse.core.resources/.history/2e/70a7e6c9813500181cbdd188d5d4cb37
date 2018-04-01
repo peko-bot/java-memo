@@ -1,0 +1,10 @@
+package com.orz.dao.impl;
+
+import org.springframework.stereotype.Repository;
+
+import com.orz.po.Base_User;
+
+@Repository(value = "userDao")
+public class Base_User_Dao<T> extends GenericDaoImpl<Base_User> implements Base_User_Dao_Impl<T> {
+
+}

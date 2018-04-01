@@ -1,0 +1,9 @@
+[ODBC]
+DRIVER=SQL Server
+UID=admin
+LANGUAGE=简体中文
+DATABASE=Memo
+WSID=ZY9
+APP=PowerDesigner
+SERVER=localhost
+Description=Memo库表

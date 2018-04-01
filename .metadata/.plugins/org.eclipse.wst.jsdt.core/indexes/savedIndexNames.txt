@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\Github\private\Memo\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1540205001.index
+2569348674.index
+2742383823.index
+301807071.index
+1414007050.index
+3898473566.index

@@ -1,0 +1,4 @@
+package com.orz.dao;
+
+public interface UserDao<T> extends GenericDao<Base_User> {
+}

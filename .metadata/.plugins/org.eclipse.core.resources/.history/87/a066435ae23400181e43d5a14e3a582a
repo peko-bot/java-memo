@@ -1,0 +1,73 @@
+package com.orz.po;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Base_User")
+public class User implements Serializable {
+	/**
+	 * serialVersionUID
+	 */
+	private static final long serialVersionUID = 3646014853725898752L;
+	
+	@Id
+	@Column(name = "id")
+	private String id;
+
+	@Column(name = "loginName")
+	private String loginName;
+
+	@Column(name = "password")
+	private String password;
+
+	@Column(name = "createTime", updatable = false)
+	private String createTime;
+
+	@Column(name = "lastModifyTime")
+	private String lastModifyTime;
+
+	public String getLoginName() {
+		return loginName;
+	}
+
+	public void setLoginName(String loginName) {
+		this.loginName = loginName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getCreateTime() {
+		return createTime;
+	}
+
+	public void setCreateTime(String createTime) {
+		this.createTime = createTime;
+	}
+
+	public String getLastModifyTime() {
+		return lastModifyTime;
+	}
+
+	public void setLastModifyTime(String lastModifyTime) {
+		this.lastModifyTime = lastModifyTime;
+	}
+}

@@ -1,0 +1,5 @@
+package com.orz.dao;
+
+
+public interface GBF_Item_Dao<T> extends GenericDao<Base_User> {
+}

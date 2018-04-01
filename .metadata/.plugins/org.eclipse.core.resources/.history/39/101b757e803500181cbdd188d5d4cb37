@@ -1,0 +1,13 @@
+package com.orz.po;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+/* gbfËØ²Ä»ù´¡ĞÅÏ¢ */
+@Entity
+@Table(name = "Base_User")
+public class GBF_Item_Info implements Serializable {
+	
+}

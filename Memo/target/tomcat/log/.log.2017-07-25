@@ -1,0 +1,194 @@
+2017-07-25 08:28:05 149 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2017-07-25 08:28:05 224 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Tue Jul 25 08:28:05 CST 2017]; root of context hierarchy
+2017-07-25 08:28:05 269 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 08:28:05 647 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2017-07-25 08:28:05 881 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 08:28:05 941 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 08:28:06 051 INFO  [MLog-Init-Reporter] [MLog:124] MLog clients using log4j logging.
+2017-07-25 08:28:06 111 INFO  [localhost-startStop-1] [C3P0Registry:248] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-07-25 08:28:06 451 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-07-25 08:28:06 461 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2017-07-25 08:28:06 465 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2017-07-25 08:28:06 467 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2017-07-25 08:28:07 010 INFO  [localhost-startStop-1] [AbstractPoolBackedDataSource:527] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgenu29px23cya1s4919h|4131f9ba, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> net.sourceforge.jtds.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgenu29px23cya1s4919h|4131f9ba, idleConnectionTestPeriod -> 28000, initialPoolSize -> 10, jdbcUrl -> jdbc:jtds:sqlserver://localhost:1433;DatabaseName=Wiki_20161218;SelectMethod=Cursor, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 28000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2017-07-25 08:28:07 861 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-07-25 08:28:07 889 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-07-25 08:28:07 932 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-25 08:28:07 954 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2017-07-25 08:28:08 040 WARN  [localhost-startStop-1] [UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2017-07-25 08:28:08 616 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hgenu29px23cya1s4919h|4131f9ba, dataSourceName -> 1hgenu29px23cya1s4919h|4131f9ba ]] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-25 08:28:08 883 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3728 ms
+2017-07-25 08:28:08 994 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-25 08:28:09 001 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Tue Jul 25 08:28:09 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 08:28:09 002 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2017-07-25 08:28:09 319 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2017-07-25 08:28:09 446 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 08:28:10 140 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save] onto handler 'diaryController'
+2017-07-25 08:28:10 140 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save.*] onto handler 'diaryController'
+2017-07-25 08:28:10 141 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save/] onto handler 'diaryController'
+2017-07-25 08:28:10 152 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view] onto handler 'homePageController'
+2017-07-25 08:28:10 153 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view.*] onto handler 'homePageController'
+2017-07-25 08:28:10 153 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view/] onto handler 'homePageController'
+2017-07-25 08:28:10 186 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view] onto handler 'registController'
+2017-07-25 08:28:10 187 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view.*] onto handler 'registController'
+2017-07-25 08:28:10 187 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view/] onto handler 'registController'
+2017-07-25 08:28:10 188 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist] onto handler 'registController'
+2017-07-25 08:28:10 188 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist.*] onto handler 'registController'
+2017-07-25 08:28:10 188 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist/] onto handler 'registController'
+2017-07-25 08:28:10 200 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2017-07-25 08:28:10 201 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2017-07-25 08:28:10 201 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2017-07-25 08:28:10 201 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2017-07-25 08:28:10 201 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2017-07-25 08:28:10 202 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2017-07-25 08:28:10 223 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts] onto handler 'webCatcherController'
+2017-07-25 08:28:10 223 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts.*] onto handler 'webCatcherController'
+2017-07-25 08:28:10 224 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts/] onto handler 'webCatcherController'
+2017-07-25 08:28:10 747 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1752 ms
+2017-07-25 08:30:06 795 WARN  [http-bio-8023-exec-4] [SqlExceptionHelper:145] SQL Error: 515, SQLState: 23000
+2017-07-25 08:30:06 814 ERROR [http-bio-8023-exec-4] [SqlExceptionHelper:147] 不能将值 NULL 插入列 'loginName'，表 'Wiki_20161218.dbo.Base_User'；列不允许有 Null 值。INSERT 失败。
+2017-07-25 08:30:06 821 INFO  [http-bio-8023-exec-4] [AbstractBatchImpl:195] HHH000010: On release of batch it still contained JDBC statements
+2017-07-25 08:38:18 317 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2017-07-25 08:38:18 409 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Tue Jul 25 08:38:18 CST 2017]; root of context hierarchy
+2017-07-25 08:38:18 471 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 08:38:18 946 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2017-07-25 08:38:19 173 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 08:38:19 232 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 08:38:19 339 INFO  [MLog-Init-Reporter] [MLog:124] MLog clients using log4j logging.
+2017-07-25 08:38:19 386 INFO  [localhost-startStop-1] [C3P0Registry:248] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-07-25 08:38:19 758 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-07-25 08:38:19 766 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2017-07-25 08:38:19 770 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2017-07-25 08:38:19 772 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2017-07-25 08:38:20 197 INFO  [localhost-startStop-1] [AbstractPoolBackedDataSource:527] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgenu29px2gi5s4hdoou|3935fe48, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> net.sourceforge.jtds.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgenu29px2gi5s4hdoou|3935fe48, idleConnectionTestPeriod -> 28000, initialPoolSize -> 10, jdbcUrl -> jdbc:jtds:sqlserver://localhost:1433;DatabaseName=Wiki_20161218;SelectMethod=Cursor, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 28000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2017-07-25 08:38:21 288 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-07-25 08:38:21 313 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-07-25 08:38:21 343 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-25 08:38:21 355 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2017-07-25 08:38:21 419 WARN  [localhost-startStop-1] [UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2017-07-25 08:38:21 894 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hgenu29px2gi5s4hdoou|3935fe48, dataSourceName -> 1hgenu29px2gi5s4hdoou|3935fe48 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-25 08:38:22 109 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3786 ms
+2017-07-25 08:38:22 223 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-25 08:38:22 230 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Tue Jul 25 08:38:22 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 08:38:22 231 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2017-07-25 08:38:22 352 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2017-07-25 08:38:22 507 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 08:38:23 125 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save] onto handler 'diaryController'
+2017-07-25 08:38:23 126 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save.*] onto handler 'diaryController'
+2017-07-25 08:38:23 127 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save/] onto handler 'diaryController'
+2017-07-25 08:38:23 134 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view] onto handler 'homePageController'
+2017-07-25 08:38:23 135 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view.*] onto handler 'homePageController'
+2017-07-25 08:38:23 135 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view/] onto handler 'homePageController'
+2017-07-25 08:38:23 158 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view] onto handler 'registController'
+2017-07-25 08:38:23 159 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view.*] onto handler 'registController'
+2017-07-25 08:38:23 159 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view/] onto handler 'registController'
+2017-07-25 08:38:23 159 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist] onto handler 'registController'
+2017-07-25 08:38:23 160 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist.*] onto handler 'registController'
+2017-07-25 08:38:23 160 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist/] onto handler 'registController'
+2017-07-25 08:38:23 168 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2017-07-25 08:38:23 168 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2017-07-25 08:38:23 169 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2017-07-25 08:38:23 169 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2017-07-25 08:38:23 169 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2017-07-25 08:38:23 169 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2017-07-25 08:38:23 176 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts] onto handler 'webCatcherController'
+2017-07-25 08:38:23 177 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts.*] onto handler 'webCatcherController'
+2017-07-25 08:38:23 177 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts/] onto handler 'webCatcherController'
+2017-07-25 08:38:23 429 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1204 ms
+2017-07-25 08:38:27 221 WARN  [http-bio-8023-exec-1] [SqlExceptionHelper:145] SQL Error: 515, SQLState: 23000
+2017-07-25 08:38:27 222 ERROR [http-bio-8023-exec-1] [SqlExceptionHelper:147] 不能将值 NULL 插入列 'userName'，表 'Wiki_20161218.dbo.Base_User'；列不允许有 Null 值。INSERT 失败。
+2017-07-25 08:38:27 232 INFO  [http-bio-8023-exec-1] [AbstractBatchImpl:195] HHH000010: On release of batch it still contained JDBC statements
+2017-07-25 20:12:17 832 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2017-07-25 20:12:17 923 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Tue Jul 25 20:12:17 CST 2017]; root of context hierarchy
+2017-07-25 20:12:17 959 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 20:12:18 337 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2017-07-25 20:12:18 542 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 20:12:18 592 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 20:12:18 746 INFO  [MLog-Init-Reporter] [MLog:124] MLog clients using log4j logging.
+2017-07-25 20:12:18 772 INFO  [localhost-startStop-1] [C3P0Registry:248] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-07-25 20:12:19 033 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-07-25 20:12:19 040 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2017-07-25 20:12:19 043 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2017-07-25 20:12:19 045 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2017-07-25 20:12:19 503 INFO  [localhost-startStop-1] [AbstractPoolBackedDataSource:527] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> jz6yv9pxr8zbfv6jhu1|569f1b0a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> net.sourceforge.jtds.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> jz6yv9pxr8zbfv6jhu1|569f1b0a, idleConnectionTestPeriod -> 28000, initialPoolSize -> 10, jdbcUrl -> jdbc:jtds:sqlserver://localhost:1433;DatabaseName=Wiki_20161218;SelectMethod=Cursor, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 28000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2017-07-25 20:12:20 444 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-07-25 20:12:20 468 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-07-25 20:12:20 497 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-25 20:12:20 510 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2017-07-25 20:12:20 565 WARN  [localhost-startStop-1] [UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2017-07-25 20:12:20 986 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> jz6yv9pxr8zbfv6jhu1|569f1b0a, dataSourceName -> jz6yv9pxr8zbfv6jhu1|569f1b0a ]] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-25 20:12:21 156 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3290 ms
+2017-07-25 20:12:21 282 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-25 20:12:21 288 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Tue Jul 25 20:12:21 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 20:12:21 288 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2017-07-25 20:12:21 453 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2017-07-25 20:12:21 617 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 20:12:22 235 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save] onto handler 'diaryController'
+2017-07-25 20:12:22 235 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save.*] onto handler 'diaryController'
+2017-07-25 20:12:22 236 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save/] onto handler 'diaryController'
+2017-07-25 20:12:22 242 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view] onto handler 'homePageController'
+2017-07-25 20:12:22 242 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view.*] onto handler 'homePageController'
+2017-07-25 20:12:22 242 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view/] onto handler 'homePageController'
+2017-07-25 20:12:22 261 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view] onto handler 'registController'
+2017-07-25 20:12:22 262 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view.*] onto handler 'registController'
+2017-07-25 20:12:22 262 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view/] onto handler 'registController'
+2017-07-25 20:12:22 262 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist] onto handler 'registController'
+2017-07-25 20:12:22 263 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist.*] onto handler 'registController'
+2017-07-25 20:12:22 263 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist/] onto handler 'registController'
+2017-07-25 20:12:22 270 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2017-07-25 20:12:22 270 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2017-07-25 20:12:22 271 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2017-07-25 20:12:22 271 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2017-07-25 20:12:22 271 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2017-07-25 20:12:22 272 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2017-07-25 20:12:22 279 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts] onto handler 'webCatcherController'
+2017-07-25 20:12:22 279 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts.*] onto handler 'webCatcherController'
+2017-07-25 20:12:22 279 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts/] onto handler 'webCatcherController'
+2017-07-25 20:12:22 513 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1230 ms
+2017-07-25 20:38:47 396 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2017-07-25 20:38:47 509 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Tue Jul 25 20:38:47 CST 2017]; root of context hierarchy
+2017-07-25 20:38:47 572 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-07-25 20:38:47 997 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2017-07-25 20:38:48 284 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 20:38:48 352 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 20:38:48 454 INFO  [MLog-Init-Reporter] [MLog:124] MLog clients using log4j logging.
+2017-07-25 20:38:48 505 INFO  [localhost-startStop-1] [C3P0Registry:248] Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-07-25 20:38:48 752 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-07-25 20:38:48 760 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2017-07-25 20:38:48 766 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2017-07-25 20:38:48 769 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2017-07-25 20:38:49 428 INFO  [localhost-startStop-1] [AbstractPoolBackedDataSource:527] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> z8kflt9pxs71ynejojqu|77849c76, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> net.sourceforge.jtds.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> z8kflt9pxs71ynejojqu|77849c76, idleConnectionTestPeriod -> 28000, initialPoolSize -> 10, jdbcUrl -> jdbc:jtds:sqlserver://localhost:1433;DatabaseName=Wiki_20161218;SelectMethod=Cursor, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 28000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2017-07-25 20:38:50 041 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2017-07-25 20:38:50 067 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2017-07-25 20:38:50 094 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-25 20:38:50 106 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2017-07-25 20:38:50 170 WARN  [localhost-startStop-1] [UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2017-07-25 20:38:50 566 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> z8kflt9pxs71ynejojqu|77849c76, dataSourceName -> z8kflt9pxs71ynejojqu|77849c76 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-25 20:38:50 748 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3348 ms
+2017-07-25 20:38:50 884 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-25 20:38:50 891 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Tue Jul 25 20:38:50 CST 2017]; parent: Root WebApplicationContext
+2017-07-25 20:38:50 932 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2017-07-25 20:38:51 130 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2017-07-25 20:38:51 397 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-07-25 20:38:52 136 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save] onto handler 'diaryController'
+2017-07-25 20:38:52 137 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save.*] onto handler 'diaryController'
+2017-07-25 20:38:52 138 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/diary/save/] onto handler 'diaryController'
+2017-07-25 20:38:52 149 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view] onto handler 'homePageController'
+2017-07-25 20:38:52 150 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view.*] onto handler 'homePageController'
+2017-07-25 20:38:52 150 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/homepage/view/] onto handler 'homePageController'
+2017-07-25 20:38:52 182 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view] onto handler 'registController'
+2017-07-25 20:38:52 182 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view.*] onto handler 'registController'
+2017-07-25 20:38:52 182 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/view/] onto handler 'registController'
+2017-07-25 20:38:52 183 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist] onto handler 'registController'
+2017-07-25 20:38:52 183 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist.*] onto handler 'registController'
+2017-07-25 20:38:52 184 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/regist/regist/] onto handler 'registController'
+2017-07-25 20:38:52 195 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2017-07-25 20:38:52 196 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2017-07-25 20:38:52 196 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2017-07-25 20:38:52 197 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2017-07-25 20:38:52 197 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2017-07-25 20:38:52 197 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2017-07-25 20:38:52 207 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts] onto handler 'webCatcherController'
+2017-07-25 20:38:52 208 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts.*] onto handler 'webCatcherController'
+2017-07-25 20:38:52 208 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/webcatcher/getTexts/] onto handler 'webCatcherController'
+2017-07-25 20:38:52 556 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1672 ms

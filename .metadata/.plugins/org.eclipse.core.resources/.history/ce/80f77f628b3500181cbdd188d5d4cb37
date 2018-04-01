@@ -1,0 +1,26 @@
+package com.orz.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.orz.dao.Base_User_Dao;
+import com.orz.dao.impl.Base_User_Dao_Impl;
+import com.orz.po.Base_User;
+import com.orz.service.UserService;
+
+import net.sf.json.JSONObject;
+
+@Service("userService")
+@Transactional
+public class UserServiceImpl extends CommonServiceImpl<Base_User> implements UserService {
+	@Autowired
+	private Base_User_Dao base_user_dao;
+
+	public JSONObject getUser() {
+		JSONObject obj = new JSONObject();
+
+		obj.put("test", 1);
+		return obj;
+	}
+}
