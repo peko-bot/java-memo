@@ -10,11 +10,11 @@ import com.orz.service.UserService;
 
 @Service
 @Transactional
-public class UserServiceImpl extends CommonServiceImpl<Base_User> implements UserService {
+public class UserServiceImpl implements UserService {
 	@Autowired
-	private Base_User_Dao base_user_dao;
+	private Base_User_Dao userService;
 
-	public String getUser(int id) {
-		return base_user_dao.findById(id).toString();
+	public Base_User getUserById(int id) {
+		return userService.get(id);
 	}
 }

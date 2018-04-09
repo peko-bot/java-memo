@@ -3,14 +3,20 @@ package com.orz.dao;
 import java.io.Serializable;
 import java.util.List;
 
-public interface GenericDao<T> {
-	public void save(T entity);
+public interface GenericDao<T, PK extends Serializable> {
+	T load(PK id);
 
-	public void update(T entity);
+	T get(int id);
 
-	public void delete(Serializable id);
+	List<T> findAll();
 
-	public T findById(Serializable id);
+	void persist(T entity);
 
-	public List<T> findByHql(String hql, Object... params);
+	PK save(T entity);
+
+	void saveOrUpdate(T entity);
+
+	void delete(PK id);
+
+	void flush();
 }

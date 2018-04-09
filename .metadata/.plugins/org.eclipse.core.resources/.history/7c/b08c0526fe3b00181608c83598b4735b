@@ -1,0 +1,67 @@
+package com.orz.service.impl;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.orz.po.Base_User;
+import com.orz.service.UserService;
+
+@Service
+@Transactional
+public class UserServiceImpl implements UserService {
+	@Autowired
+	private SessionFactory sessionFactory;
+
+	private Session getCurrentSession() {
+		return this.sessionFactory.openSession();
+	}
+
+	public Base_User load(Long id) {
+		return (Person)getCurrentSession().load(Person.class,id);
+	}
+
+	public Base_User get(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Base_User> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void persist(Base_User entity) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Long save(Base_User entity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void saveOrUpdate(Base_User entity) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void delete(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void flush() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public String getUser(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

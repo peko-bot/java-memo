@@ -1,15 +1,11 @@
 com\orz\controller\TestController.class
-com\orz\service\impl\CommonServiceImpl.class
 com\orz\po\GBF_Item_Info.class
 com\orz\po\Base_User.class
 com\orz\controller\GbfController.class
 com\orz\service\UserService.class
-com\orz\service\CommonService.class
 com\orz\dao\impl\Base_User_Dao_Impl.class
 com\orz\dao\GenericDao.class
-com\orz\dao\impl\GenericDaoImpl.class
 com\orz\util\DateUtil.class
 com\orz\dao\Base_User_Dao.class
 com\orz\service\impl\UserServiceImpl.class
-com\orz\dao\GBF_Item_Dao.class
 com\orz\test\Test.class

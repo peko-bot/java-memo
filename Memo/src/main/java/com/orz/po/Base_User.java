@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 /* 用户基础信息 */
 @Entity
 @Table(name = "Base_User")
@@ -25,10 +27,12 @@ public class Base_User implements Serializable {
 	private String password;
 
 	@Column(name = "create_time", updatable = false)
-	private Date create_time;
+	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	public Date create_time;
 
 	@Column(name = "last_modify_time")
-	private Date last_modify_time;
+	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+	public Date last_modify_time;
 
 	@Column(name = "cellphone")
 	private String cellphone;
