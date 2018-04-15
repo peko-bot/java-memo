@@ -35,8 +35,8 @@ public class Base_User_Dao_Impl implements Base_User_Dao {
 		getCurrentSession().persist(entity);
 	}
 
-	public Long save(Base_User entity) {
-		return (Long) getCurrentSession().save(entity);
+	public void save(Base_User entity) {
+		getCurrentSession().save(entity);
 	}
 
 	public void saveOrUpdate(Base_User entity) {

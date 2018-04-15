@@ -2,29 +2,33 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="dataSource" key="selection"/>
+		<item value="maxPoolSize" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="maxPoolSize"/>
+			<item value="load"/>
+			<item value="long"/>
+			<item value="save"/>
+			<item value="Base_User"/>
+			<item value="int"/>
+			<item value="create_time"/>
+			<item value="syst"/>
+			<item value="Person"/>
 			<item value="dataSource"/>
 			<item value="ref"/>
 			<item value="sessionFactory"/>
 			<item value="current_session_context_class"/>
 			<item value="hibernateTemplate"/>
 			<item value="transactionManager"/>
-			<item value="hbm2ddl"/>
-			<item value="DATE"/>
-			<item value="jdts"/>
-			<item value="maven-compiler-plugin"/>
-			<item value="maven-com"/>
-			<item value="CompilerMojo"/>
-			<item value="pattern"/>
-			<item value="spring-orm"/>
-			<item value="org.springframework.orm"/>
 		</list>
 		<list key="replacehistory">
+			<item value="int"/>
+			<item value="GBF_Item_Info"/>
+			<item value="Integer"/>
+			<item value="Base_User"/>
 			<item value=""/>
 		</list>
 	</section>

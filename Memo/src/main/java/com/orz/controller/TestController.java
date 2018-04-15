@@ -5,6 +5,10 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import javax.crypto.Cipher;
+import javax.crypto.spec.SecretKeySpec;
+
+import org.apache.xerces.impl.dv.util.Base64;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,7 +31,21 @@ public class TestController {
 			obj.put("test" + i, "success" + i);
 			arr.add(obj);
 		}
+		try {
+			// shzh-hzworkstation
+			// System.out.println(encryptDES("guest1", "shzh-hzw"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		return arr.toString();
+	}
+
+	public static String encryptDES(String paramString1, String paramString2) throws Exception {
+
+		SecretKeySpec localSecretKeySpec = new SecretKeySpec(paramString2.getBytes(), "DES");
+		Cipher localCipher = Cipher.getInstance("DES/ECB/PKCS5Padding");
+		localCipher.init(1, localSecretKeySpec);
+		return Base64.encode(localCipher.doFinal(paramString1.getBytes()));
 	}
 
 	@RequestMapping("/getPage")

@@ -1,14 +1,12 @@
 package com.orz.po;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.sql.Timestamp;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
-import com.fasterxml.jackson.annotation.JsonFormat;
 
 /* 用户基础信息 */
 @Entity
@@ -27,12 +25,10 @@ public class Base_User implements Serializable {
 	private String password;
 
 	@Column(name = "create_time", updatable = false)
-	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-	public Date create_time;
+	public Timestamp create_time;
 
 	@Column(name = "last_modify_time")
-	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-	public Date last_modify_time;
+	public Timestamp last_modify_time;
 
 	@Column(name = "cellphone")
 	private String cellphone;
@@ -91,19 +87,19 @@ public class Base_User implements Serializable {
 		this.gbf_id = gbf_id;
 	}
 
-	public Date getCreate_time() {
+	public Timestamp getCreate_time() {
 		return create_time;
 	}
 
-	public void setCreate_time(Date create_time) {
+	public void setCreate_time(Timestamp create_time) {
 		this.create_time = create_time;
 	}
 
-	public Date getLast_modify_time() {
+	public Timestamp getLast_modify_time() {
 		return last_modify_time;
 	}
 
-	public void setLast_modify_time(Date last_modify_time) {
+	public void setLast_modify_time(Timestamp last_modify_time) {
 		this.last_modify_time = last_modify_time;
 	}
 

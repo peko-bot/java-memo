@@ -5,22 +5,25 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 /* gbf素材基础信息 */
 @Entity
-@Table(name = "Base_User")
+@Table(name = "GBF_Item_Info")
 public class GBF_Item_Info implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
-	private int id;
+	private Integer id;
 
 	// 批号，同一个id不同批次的数据
 	@Column(name = "patch")
-	private int patch;
+	private Integer patch;
 
 	// 筛选时用的类型（暂时无用）
 	@Column(name = "category_type")
@@ -28,7 +31,7 @@ public class GBF_Item_Info implements Serializable {
 
 	// 材料icon id（暂时无用）
 	@Column(name = "image")
-	private int image;
+	private Integer image;
 
 	// 是否显示在底部栏（暂时无用）
 	@Column(name = "is_display_item")
@@ -36,35 +39,35 @@ public class GBF_Item_Info implements Serializable {
 
 	// 材料id
 	@Column(name = "item_id")
-	private int item_id;
+	private Integer item_id;
 
 	// 材料名称
 	@Column(name = "name")
 	private String name;
 
 	@Column(name = "number")
-	private int number;
+	private Integer number;
 
 	@Column(name = "user_id")
-	private int user_id;
+	private Integer user_id;
 
 	// 入库时间
 	@Column(name = "create_time")
 	private Date create_time;
 
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
-	public int getPatch() {
+	public Integer getPatch() {
 		return patch;
 	}
 
-	public void setPatch(int patch) {
+	public void setPatch(Integer patch) {
 		this.patch = patch;
 	}
 
@@ -76,11 +79,11 @@ public class GBF_Item_Info implements Serializable {
 		this.category_type = category_type;
 	}
 
-	public int getImage() {
+	public Integer getImage() {
 		return image;
 	}
 
-	public void setImage(int image) {
+	public void setImage(Integer image) {
 		this.image = image;
 	}
 
@@ -92,11 +95,11 @@ public class GBF_Item_Info implements Serializable {
 		this.is_display_item = is_display_item;
 	}
 
-	public int getItem_id() {
+	public Integer getItem_id() {
 		return item_id;
 	}
 
-	public void setItem_id(int item_id) {
+	public void setItem_id(Integer item_id) {
 		this.item_id = item_id;
 	}
 
@@ -108,19 +111,19 @@ public class GBF_Item_Info implements Serializable {
 		this.name = name;
 	}
 
-	public int getNumber() {
+	public Integer getNumber() {
 		return number;
 	}
 
-	public void setNumber(int number) {
+	public void setNumber(Integer number) {
 		this.number = number;
 	}
 
-	public int getUser_id() {
+	public Integer getUser_id() {
 		return user_id;
 	}
 
-	public void setUser_id(int user_id) {
+	public void setUser_id(Integer user_id) {
 		this.user_id = user_id;
 	}
 
