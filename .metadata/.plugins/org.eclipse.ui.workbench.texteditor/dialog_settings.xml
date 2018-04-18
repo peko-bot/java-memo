@@ -2,12 +2,16 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="maxPoolSize" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="parent"/>
+			<item value="maven-archetype-plugin"/>
+			<item value="testConnectionOnCheckin"/>
+			<item value="automaticTestTable"/>
 			<item value="maxPoolSize"/>
 			<item value="load"/>
 			<item value="long"/>
@@ -19,10 +23,6 @@
 			<item value="Person"/>
 			<item value="dataSource"/>
 			<item value="ref"/>
-			<item value="sessionFactory"/>
-			<item value="current_session_context_class"/>
-			<item value="hibernateTemplate"/>
-			<item value="transactionManager"/>
 		</list>
 		<list key="replacehistory">
 			<item value="int"/>

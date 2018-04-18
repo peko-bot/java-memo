@@ -1,5 +1,0 @@
-package com.orz.service;
-
-public interface UserService {
-	public Base_User getUser();
-}

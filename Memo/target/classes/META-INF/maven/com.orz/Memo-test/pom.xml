@@ -2,8 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.orz</groupId>
-	<artifactId>Memo</artifactId>
-	<packaging>war</packaging>
+	<artifactId>Memo-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Memo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -350,6 +349,7 @@
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
+				<packaging>war</packaging>
 				<version>2.1</version>
 				<configuration>
 					<port>8023</port>

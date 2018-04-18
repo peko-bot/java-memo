@@ -16,7 +16,7 @@ public class Gbf_Info_Dao_Impl implements Gbf_Info_Dao {
 	private SessionFactory sessionFactory;
 
 	private Session getCurrentSession() {
-		return this.sessionFactory.openSession();
+		return this.sessionFactory.getCurrentSession();
 	}
 
 	public GBF_Item_Info load(int id) {

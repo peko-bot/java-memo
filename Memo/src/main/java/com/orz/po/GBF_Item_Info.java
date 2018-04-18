@@ -22,8 +22,9 @@ public class GBF_Item_Info implements Serializable {
 	private Integer id;
 
 	// 批号，同一个id不同批次的数据
+	// 目前是user_id + 日期yyyyMMddHHmmss
 	@Column(name = "patch")
-	private Integer patch;
+	private String patch;
 
 	// 筛选时用的类型（暂时无用）
 	@Column(name = "category_type")
@@ -34,8 +35,8 @@ public class GBF_Item_Info implements Serializable {
 	private Integer image;
 
 	// 是否显示在底部栏（暂时无用）
-	@Column(name = "is_display_item")
-	private Boolean is_display_item;
+	@Column(name = "is_display_select_item")
+	private Boolean is_display_select_item;
 
 	// 材料id
 	@Column(name = "item_id")
@@ -49,7 +50,7 @@ public class GBF_Item_Info implements Serializable {
 	private Integer number;
 
 	@Column(name = "user_id")
-	private Integer user_id;
+	private String user_id;
 
 	// 入库时间
 	@Column(name = "create_time")
@@ -63,11 +64,11 @@ public class GBF_Item_Info implements Serializable {
 		this.id = id;
 	}
 
-	public Integer getPatch() {
+	public String getPatch() {
 		return patch;
 	}
 
-	public void setPatch(Integer patch) {
+	public void setPatch(String patch) {
 		this.patch = patch;
 	}
 
@@ -85,14 +86,6 @@ public class GBF_Item_Info implements Serializable {
 
 	public void setImage(Integer image) {
 		this.image = image;
-	}
-
-	public Boolean getIs_display_item() {
-		return is_display_item;
-	}
-
-	public void setIs_display_item(Boolean is_display_item) {
-		this.is_display_item = is_display_item;
 	}
 
 	public Integer getItem_id() {
@@ -119,12 +112,28 @@ public class GBF_Item_Info implements Serializable {
 		this.number = number;
 	}
 
-	public Integer getUser_id() {
+	public String getUser_id() {
 		return user_id;
 	}
 
-	public void setUser_id(Integer user_id) {
+	public void setUser_id(String user_id) {
 		this.user_id = user_id;
+	}
+
+	public Boolean getIs_display_select_item() {
+		return is_display_select_item;
+	}
+
+	public void setIs_display_select_item(Boolean is_display_select_item) {
+		this.is_display_select_item = is_display_select_item;
+	}
+
+	public Date getCreate_time() {
+		return create_time;
+	}
+
+	public void setCreate_time(Date create_time) {
+		this.create_time = create_time;
 	}
 
 }

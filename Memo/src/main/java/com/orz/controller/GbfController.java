@@ -1,5 +1,6 @@
 package com.orz.controller;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,11 +37,12 @@ public class GbfController {
 
 	@RequestMapping(value = "/i_item", method = RequestMethod.POST)
 	@ResponseBody
-	public String i_item_info(Model model, @RequestParam(value = "data") String items) {
+	public String i_item_info(Model model, @RequestParam(value = "data") String items,
+			@RequestParam("user_id") String user_id) {
 		List<GBF_Item_Info> giis = JSONArray.parseArray(items, GBF_Item_Info.class);
 
 		try {
-			itemService.save(giis);
+			itemService.save(giis, user_id, new Date());
 
 			return "success";
 		} catch (Exception e) {

@@ -1,9 +1,10 @@
 package com.orz.service;
 
+import java.util.Date;
 import java.util.List;
 
 import com.orz.po.GBF_Item_Info;
 
 public interface GbfItemService {
-	public void save(List<GBF_Item_Info> giis);
+	public void save(List<GBF_Item_Info> giis, String user_id, Date now);
 }
