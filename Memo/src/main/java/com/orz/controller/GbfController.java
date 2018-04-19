@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -37,6 +38,7 @@ public class GbfController {
 
 	@RequestMapping(value = "/i_item", method = RequestMethod.POST)
 	@ResponseBody
+	@CrossOrigin(origins = { "http://game.granbluefantasy.jp" }, methods = { RequestMethod.POST })
 	public String i_item_info(Model model, @RequestParam(value = "data") String items,
 			@RequestParam("user_id") String user_id) {
 		List<GBF_Item_Info> giis = JSONArray.parseArray(items, GBF_Item_Info.class);

@@ -50,7 +50,7 @@ public class GBF_Item_Info implements Serializable {
 	private Integer number;
 
 	@Column(name = "user_id")
-	private String user_id;
+	private Integer user_id;
 
 	// »Îø‚ ±º‰
 	@Column(name = "create_time")
@@ -112,11 +112,11 @@ public class GBF_Item_Info implements Serializable {
 		this.number = number;
 	}
 
-	public String getUser_id() {
+	public Integer getUser_id() {
 		return user_id;
 	}
 
-	public void setUser_id(String user_id) {
+	public void setUser_id(Integer user_id) {
 		this.user_id = user_id;
 	}
 
@@ -135,5 +135,4 @@ public class GBF_Item_Info implements Serializable {
 	public void setCreate_time(Date create_time) {
 		this.create_time = create_time;
 	}
-
 }

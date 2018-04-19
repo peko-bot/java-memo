@@ -102,5 +102,4 @@ public class Base_User implements Serializable {
 	public void setLast_modify_time(Timestamp last_modify_time) {
 		this.last_modify_time = last_modify_time;
 	}
-
 }

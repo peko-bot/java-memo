@@ -51,4 +51,8 @@ public class Gbf_Info_Dao_Impl implements Gbf_Info_Dao {
 	public void flush() {
 		getCurrentSession().flush();
 	}
+
+	public GBF_Item_Info get(String id) {
+		return null;
+	}
 }

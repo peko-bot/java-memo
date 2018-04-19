@@ -27,6 +27,10 @@ public class Base_User_Dao_Impl implements Base_User_Dao {
 		return (Base_User) getCurrentSession().get(Base_User.class, id);
 	}
 
+	public Base_User get(String gbf_id) {
+		return (Base_User) getCurrentSession().get(Base_User.class, gbf_id);
+	}
+
 	public List<Base_User> findAll() {
 		return null;
 	}

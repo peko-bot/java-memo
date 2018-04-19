@@ -5,6 +5,8 @@ import java.util.List;
 public interface GenericDao<T, PK> {
 	T get(int id);
 
+	T get(String id);
+
 	List<T> findAll();
 
 	void persist(T entity);
