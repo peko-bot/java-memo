@@ -38,7 +38,7 @@ public class GbfController {
 
 	@RequestMapping(value = "/i_item", method = RequestMethod.POST)
 	@ResponseBody
-	@CrossOrigin(origins = { "http://game.granbluefantasy.jp" }, methods = { RequestMethod.POST })
+	@CrossOrigin
 	public String i_item_info(Model model, @RequestParam(value = "data") String items,
 			@RequestParam("user_id") String user_id) {
 		List<GBF_Item_Info> giis = JSONArray.parseArray(items, GBF_Item_Info.class);

@@ -1,0 +1,443 @@
+2018-04-21 15:55:11 931 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 15:55:12 063 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 15:55:12 CST 2018]; root of context hierarchy
+2018-04-21 15:55:12 116 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 15:55:12 552 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 15:55:13 082 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 15:55:13 180 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 15:55:14 493 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 15:55:14 520 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 15:55:14 534 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 15:55:14 536 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 15:55:16 383 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 15:55:16 408 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 15:55:16 435 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 15:55:16 447 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 15:55:17 651 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1s5e35tge4qbn|73331e6c, dataSourceName -> 1hge0yv9u1s5e35tge4qbn|73331e6c ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 15:55:17 883 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 5934 ms
+2018-04-21 15:55:17 967 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 15:55:17 972 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 15:55:17 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 15:55:17 972 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 15:55:18 058 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 15:55:18 349 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 15:55:19 278 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 15:55:19 278 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 15:55:19 279 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 15:55:19 279 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 15:55:19 279 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 15:55:19 279 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 15:55:19 288 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 15:55:19 288 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 15:55:19 289 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 15:55:19 289 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 15:55:19 290 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 15:55:19 290 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 15:55:19 652 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1685 ms
+2018-04-21 16:05:00 927 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 16:05:01 019 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 16:05:01 CST 2018]; root of context hierarchy
+2018-04-21 16:05:01 078 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 16:05:01 500 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 16:05:01 783 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 16:05:01 841 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 16:05:02 531 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 16:05:02 548 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 16:05:02 556 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 16:05:02 559 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 16:05:03 463 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 16:05:03 495 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 16:05:03 526 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 16:05:03 565 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 16:05:04 134 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1s5qpc51nc4uzr|6e948d54, dataSourceName -> 1hge0yv9u1s5qpc51nc4uzr|6e948d54 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 16:05:04 305 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3374 ms
+2018-04-21 16:05:04 397 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 16:05:04 401 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 16:05:04 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 16:05:04 401 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 16:05:04 512 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 16:05:04 683 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 16:05:05 320 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 16:05:05 321 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 16:05:05 321 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 16:05:05 322 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 16:05:05 322 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 16:05:05 322 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 16:05:05 330 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 16:05:05 330 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 16:05:05 331 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 16:05:05 331 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 16:05:05 332 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 16:05:05 332 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 16:05:05 909 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1512 ms
+2018-04-21 16:06:08 046 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 16:06:08 123 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 16:06:08 CST 2018]; root of context hierarchy
+2018-04-21 16:06:08 224 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 16:06:08 630 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 16:06:08 870 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 16:06:08 938 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 16:06:09 490 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 16:06:09 500 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 16:06:09 503 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 16:06:09 506 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 16:06:10 665 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 16:06:10 704 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 16:06:10 752 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 16:06:10 774 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 16:06:11 379 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1s5s54oamqnui|3685be75, dataSourceName -> 1hge0yv9u1s5s54oamqnui|3685be75 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 16:06:11 579 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3529 ms
+2018-04-21 16:06:11 656 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 16:06:11 661 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 16:06:11 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 16:06:11 661 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 16:06:11 758 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 16:06:11 875 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 16:06:12 504 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 16:06:12 505 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 16:06:12 505 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 16:06:12 506 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 16:06:12 506 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 16:06:12 507 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 16:06:12 515 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 16:06:12 516 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 16:06:12 516 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 16:06:12 516 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 16:06:12 517 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 16:06:12 517 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 16:06:13 112 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1456 ms
+2018-04-21 16:08:55 925 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 16:08:56 059 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 16:08:56 CST 2018]; root of context hierarchy
+2018-04-21 16:08:56 204 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 16:08:56 635 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 16:08:57 110 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 16:08:57 186 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 16:08:58 966 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 16:08:59 040 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 16:08:59 058 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 16:08:59 063 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 16:09:03 114 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 16:09:03 158 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 16:09:03 386 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 16:09:03 541 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 16:09:07 380 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1s5vr4b1e1ayfu|5844d814, dataSourceName -> 1hge0yv9u1s5vr4b1e1ayfu|5844d814 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 16:09:08 009 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 12077 ms
+2018-04-21 16:09:08 502 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 16:09:08 511 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 16:09:08 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 16:09:08 512 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 16:09:08 803 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 16:09:09 154 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 16:09:11 275 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 16:09:11 276 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 16:09:11 276 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 16:09:11 276 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 16:09:11 277 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 16:09:11 277 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 16:09:11 286 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 16:09:11 287 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 16:09:11 287 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 16:09:11 287 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 16:09:11 288 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 16:09:11 288 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 16:09:13 621 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 5118 ms
+2018-04-21 17:29:47 487 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 17:29:47 546 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 17:29:47 CST 2018]; root of context hierarchy
+2018-04-21 17:29:47 596 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 17:29:47 986 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 17:29:48 413 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 17:29:48 470 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 17:29:49 351 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 17:29:49 360 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 17:29:49 364 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 17:29:49 366 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 17:29:50 680 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 17:29:50 707 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 17:29:50 737 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 17:29:50 752 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 17:29:51 623 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1s8rq8n1j2u67|6caa74d7, dataSourceName -> 1hge0yv9u1s8rq8n1j2u67|6caa74d7 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 17:29:51 785 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 4295 ms
+2018-04-21 17:29:51 873 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 17:29:51 877 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 17:29:51 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 17:29:51 878 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 17:29:51 974 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 17:29:52 154 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 17:29:53 018 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 17:29:53 019 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 17:29:53 019 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 17:29:53 019 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 17:29:53 019 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 17:29:53 020 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 17:29:53 028 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 17:29:53 029 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 17:29:53 029 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 17:29:53 030 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 17:29:53 030 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 17:29:53 030 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 17:29:53 379 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1505 ms
+2018-04-21 17:37:56 898 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 17:37:56 965 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 17:37:56 CST 2018]; root of context hierarchy
+2018-04-21 17:37:57 013 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 17:37:57 414 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 17:37:57 648 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 17:37:57 710 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 17:37:58 182 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 17:37:58 195 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 17:37:58 201 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 17:37:58 205 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 17:37:59 104 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 17:37:59 142 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 17:37:59 171 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 17:37:59 185 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 17:37:59 748 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1s927om1mrc423|2ed2199c, dataSourceName -> 1hge0yv9u1s927om1mrc423|2ed2199c ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 17:37:59 959 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3057 ms
+2018-04-21 17:38:00 032 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 17:38:00 036 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 17:38:00 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 17:38:00 037 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 17:38:00 142 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 17:38:00 261 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 17:38:00 886 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 17:38:00 886 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 17:38:00 887 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 17:38:00 887 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 17:38:00 887 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 17:38:00 888 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 17:38:00 896 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 17:38:00 897 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 17:38:00 897 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 17:38:00 898 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 17:38:00 898 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 17:38:00 898 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 17:38:01 563 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1530 ms
+2018-04-21 18:04:26 932 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 18:04:26 996 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 18:04:26 CST 2018]; root of context hierarchy
+2018-04-21 18:04:27 047 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 18:04:27 448 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 18:04:27 872 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 18:04:27 933 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 18:04:29 112 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 18:04:29 125 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 18:04:29 131 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 18:04:29 133 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 18:04:30 254 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 18:04:30 291 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 18:04:30 328 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 18:04:30 350 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 18:04:30 876 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1sa0aqq5hq3f7|29dc2ae6, dataSourceName -> 1hge0yv9u1sa0aqq5hq3f7|29dc2ae6 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 18:04:31 015 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 4080 ms
+2018-04-21 18:04:31 101 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 18:04:31 105 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 18:04:31 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 18:04:31 105 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 18:04:31 206 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 18:04:31 322 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 18:04:31 917 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 18:04:31 918 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 18:04:31 918 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 18:04:31 918 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 18:04:31 919 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 18:04:31 919 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 18:04:31 927 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 18:04:31 927 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 18:04:31 928 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 18:04:31 928 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 18:04:31 928 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 18:04:31 929 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 18:04:32 242 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1141 ms
+2018-04-21 18:16:36 924 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 18:16:37 024 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 18:16:37 CST 2018]; root of context hierarchy
+2018-04-21 18:16:37 168 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 18:16:37 579 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 18:16:37 908 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 18:16:37 968 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 18:16:38 639 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 18:16:38 655 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 18:16:38 661 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 18:16:38 666 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 18:16:40 213 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 18:16:40 246 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 18:16:40 283 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 18:16:40 300 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 18:16:40 860 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1safy2d1m0zz5k|5c72b03e, dataSourceName -> 1hge0yv9u1safy2d1m0zz5k|5c72b03e ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 18:16:41 037 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 4109 ms
+2018-04-21 18:16:41 125 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 18:16:41 129 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 18:16:41 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 18:16:41 130 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 18:16:41 317 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 18:16:41 453 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 18:16:42 031 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 18:16:42 031 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 18:16:42 032 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 18:16:42 032 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 18:16:42 032 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 18:16:42 032 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 18:16:42 040 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 18:16:42 041 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 18:16:42 041 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 18:16:42 041 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 18:16:42 041 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 18:16:42 042 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 18:16:42 311 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1186 ms
+2018-04-21 18:23:42 967 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 18:23:43 073 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 18:23:43 CST 2018]; root of context hierarchy
+2018-04-21 18:23:43 160 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 18:23:43 586 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 18:23:43 870 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 18:23:43 929 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 18:23:44 600 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 18:23:44 610 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 18:23:44 613 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 18:23:44 615 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 18:23:45 593 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 18:23:45 621 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 18:23:45 657 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 18:23:45 674 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 18:23:46 237 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1sap2qu8lw9yz|34bc9436, dataSourceName -> 1hge0yv9u1sap2qu8lw9yz|34bc9436 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 18:23:46 392 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3420 ms
+2018-04-21 18:23:46 466 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 18:23:46 471 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 18:23:46 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 18:23:46 472 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 18:23:46 561 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 18:23:46 680 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 18:23:47 276 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 18:23:47 276 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 18:23:47 277 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 18:23:47 277 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 18:23:47 277 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 18:23:47 278 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 18:23:47 286 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 18:23:47 287 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 18:23:47 288 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 18:23:47 288 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 18:23:47 289 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 18:23:47 290 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 18:23:47 914 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1447 ms
+2018-04-21 19:19:08 407 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 19:19:08 481 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 19:19:08 CST 2018]; root of context hierarchy
+2018-04-21 19:19:08 524 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 19:19:08 912 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 19:19:09 281 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 19:19:09 343 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 19:19:09 969 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 19:19:09 986 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 19:19:09 992 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 19:19:09 998 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 19:19:11 253 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 19:19:11 320 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 19:19:11 878 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 19:19:12 180 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 19:19:12 757 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1scocmv1bgp170|9af7da5, dataSourceName -> 1hge0yv9u1scocmv1bgp170|9af7da5 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 19:19:12 979 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 4569 ms
+2018-04-21 19:19:13 113 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 19:19:13 120 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 19:19:13 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 19:19:13 121 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 19:19:13 268 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 19:19:13 394 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 19:19:14 006 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 19:19:14 007 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 19:19:14 007 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 19:19:14 007 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 19:19:14 008 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 19:19:14 008 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 19:19:14 018 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 19:19:14 019 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 19:19:14 019 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 19:19:14 020 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 19:19:14 020 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 19:19:14 020 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 19:19:14 655 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1541 ms
+2018-04-21 20:43:42 885 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 20:43:42 952 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 20:43:42 CST 2018]; root of context hierarchy
+2018-04-21 20:43:42 996 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 20:43:43 478 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 20:43:43 745 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 20:43:43 802 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 20:43:44 400 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 20:43:44 414 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 20:43:44 418 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 20:43:44 428 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 20:43:45 459 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 20:43:45 515 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 20:43:45 548 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 20:43:45 594 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 20:43:46 122 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1sfp448994ly5|240ef836, dataSourceName -> 1hge0yv9u1sfp448994ly5|240ef836 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 20:43:46 336 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3447 ms
+2018-04-21 20:43:46 446 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 20:43:46 450 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 20:43:46 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 20:43:46 451 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 20:43:46 556 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 20:43:46 662 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 20:43:47 259 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 20:43:47 259 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 20:43:47 260 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 20:43:47 260 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 20:43:47 260 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 20:43:47 260 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 20:43:47 268 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 20:43:47 269 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 20:43:47 269 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 20:43:47 270 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 20:43:47 270 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 20:43:47 271 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 20:43:47 814 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1368 ms
+2018-04-21 20:48:18 871 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 20:48:19 003 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 20:48:19 CST 2018]; root of context hierarchy
+2018-04-21 20:48:19 080 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 20:48:19 511 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 20:48:19 732 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 20:48:19 804 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 20:48:20 320 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 20:48:20 331 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 20:48:20 335 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 20:48:20 337 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 20:48:21 654 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 20:48:21 746 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 20:48:21 780 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 20:48:21 818 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 20:48:22 399 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1sfv11l1526oum|5899d8f6, dataSourceName -> 1hge0yv9u1sfv11l1526oum|5899d8f6 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 20:48:22 833 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 3956 ms
+2018-04-21 20:48:22 925 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 20:48:22 929 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 20:48:22 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 20:48:22 930 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 20:48:23 045 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 20:48:23 212 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 20:48:23 799 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 20:48:23 799 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 20:48:23 800 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 20:48:23 800 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 20:48:23 800 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 20:48:23 801 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 20:48:23 810 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 20:48:23 810 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 20:48:23 810 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 20:48:23 811 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 20:48:23 811 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 20:48:23 811 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 20:48:24 446 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1520 ms
+2018-04-21 20:50:49 906 WARN  [http-bio-8023-exec-5] [PageNotFound:215] Request method 'GET' not supported
+2018-04-21 21:57:17 214 INFO  [localhost-startStop-1] [ContextLoader:304] Root WebApplicationContext: initialization started
+2018-04-21 21:57:17 293 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing Root WebApplicationContext: startup date [Sat Apr 21 21:57:17 CST 2018]; root of context hierarchy
+2018-04-21 21:57:17 336 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-04-21 21:57:17 731 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_database.xml]
+2018-04-21 21:57:18 157 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 21:57:18 236 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 21:57:18 875 INFO  [localhost-startStop-1] [Version:37] HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2018-04-21 21:57:18 896 INFO  [localhost-startStop-1] [Version:41] HHH000412: Hibernate Core {4.2.1.Final}
+2018-04-21 21:57:18 902 INFO  [localhost-startStop-1] [Environment:239] HHH000206: hibernate.properties not found
+2018-04-21 21:57:18 905 INFO  [localhost-startStop-1] [Environment:342] HHH000021: Bytecode provider name : javassist
+2018-04-21 21:57:20 094 INFO  [localhost-startStop-1] [Dialect:128] HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2018-04-21 21:57:20 133 INFO  [localhost-startStop-1] [LobCreatorBuilder:94] HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-04-21 21:57:20 201 INFO  [localhost-startStop-1] [TransactionFactoryInitiator:68] HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-04-21 21:57:20 218 INFO  [localhost-startStop-1] [ASTQueryTranslatorFactory:48] HHH000397: Using ASTQueryTranslatorFactory
+2018-04-21 21:57:21 379 INFO  [localhost-startStop-1] [HibernateTransactionManager:360] Using DataSource [com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hge0yv9u1sibqcm14s6oxc|70fb117f, dataSourceName -> 1hge0yv9u1sibqcm14s6oxc|70fb117f ]] of Hibernate SessionFactory for HibernateTransactionManager
+2018-04-21 21:57:21 604 INFO  [localhost-startStop-1] [ContextLoader:344] Root WebApplicationContext: initialization completed in 4387 ms
+2018-04-21 21:57:21 678 INFO  [localhost-startStop-1] [DispatcherServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-21 21:57:21 683 INFO  [localhost-startStop-1] [XmlWebApplicationContext:583] Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Apr 21 21:57:21 CST 2018]; parent: Root WebApplicationContext
+2018-04-21 21:57:21 683 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dispatcherServlet.xml]
+2018-04-21 21:57:21 782 INFO  [localhost-startStop-1] [XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [config_transaction.xml]
+2018-04-21 21:57:21 930 INFO  [localhost-startStop-1] [AutowiredAnnotationBeanPostProcessor:155] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-04-21 21:57:22 526 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test] onto handler 'gbfController'
+2018-04-21 21:57:22 526 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test.*] onto handler 'gbfController'
+2018-04-21 21:57:22 527 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/test/] onto handler 'gbfController'
+2018-04-21 21:57:22 527 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item] onto handler 'gbfController'
+2018-04-21 21:57:22 527 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item.*] onto handler 'gbfController'
+2018-04-21 21:57:22 528 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/gbf/i_item/] onto handler 'gbfController'
+2018-04-21 21:57:22 535 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view] onto handler 'testController'
+2018-04-21 21:57:22 536 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view.*] onto handler 'testController'
+2018-04-21 21:57:22 536 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/view/] onto handler 'testController'
+2018-04-21 21:57:22 536 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage] onto handler 'testController'
+2018-04-21 21:57:22 537 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage.*] onto handler 'testController'
+2018-04-21 21:57:22 537 INFO  [localhost-startStop-1] [DefaultAnnotationHandlerMapping:362] Mapped URL path [/test/getPage/] onto handler 'testController'
+2018-04-21 21:57:22 850 INFO  [localhost-startStop-1] [DispatcherServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 1171 ms

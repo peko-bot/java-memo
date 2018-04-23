@@ -4,9 +4,7 @@
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="com.orz.service.UserService"/>
 <fullyQualifiedTypeName name="com.orz.dao.impl.Base_User_Dao_Impl"/>
-<fullyQualifiedTypeName name="com.orz.dao.Base_User_Dao"/>
 <fullyQualifiedTypeName name="net.sf.json.JSONArray"/>
-<fullyQualifiedTypeName name="com.orz.po.Base_User"/>
 <fullyQualifiedTypeName name="net.sourceforge.jtds.jdbc.DateTime"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonFormat"/>
 <fullyQualifiedTypeName name="org.apache.xerces.impl.dv.util.Base64"/>
@@ -22,11 +20,19 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.orz.dao.GenericDao"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.orz.service.GbfItemService"/>
 <fullyQualifiedTypeName name="com.orz.dao.Gbf_Info_Dao"/>
-<fullyQualifiedTypeName name="com.orz.po.GBF_Item_Info"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="com.orz.po.Base_User"/>
+<fullyQualifiedTypeName name="com.orz.po.GBF_Item_Info"/>
+<fullyQualifiedTypeName name="org.hibernate.annotations.CascadeType"/>
+<fullyQualifiedTypeName name="org.hibernate.metamodel.binding.CascadeType"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.orz.dao.Base_User_Dao"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.net.URLDecoder"/>
+<fullyQualifiedTypeName name="com.alibaba.fastjson.JSONObject"/>
 </qualifiedTypeNameHistroy>

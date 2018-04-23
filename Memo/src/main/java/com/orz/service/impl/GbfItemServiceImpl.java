@@ -32,6 +32,7 @@ public class GbfItemServiceImpl implements GbfItemService {
 			// gii.setUser_id(user.getId());
 			gii.setUser_id(1);
 
+			System.out.println(gii.getName());
 			itemService.save(gii);
 		}
 	}
