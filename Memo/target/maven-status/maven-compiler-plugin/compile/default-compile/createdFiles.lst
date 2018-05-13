@@ -3,7 +3,6 @@ com\orz\po\GBF_Item_Info.class
 com\orz\po\Base_User.class
 com\orz\service\impl\GbfItemServiceImpl.class
 com\orz\service\UserService.class
-com\orz\dao\impl\Base_User_Dao_Impl.class
 com\orz\service\GbfItemService.class
 com\orz\dao\GenericDao.class
 com\orz\dao\Base_User_Dao.class
@@ -11,5 +10,4 @@ com\orz\test\Test.class
 com\orz\controller\GbfController.class
 com\orz\dao\Gbf_Info_Dao.class
 com\orz\util\DateUtil.class
-com\orz\dao\impl\Gbf_Info_Dao_Impl.class
 com\orz\service\impl\UserServiceImpl.class

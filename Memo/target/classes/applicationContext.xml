@@ -10,13 +10,13 @@
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 	<!-- 加载配置资源文件 -->
-	<context:property-placeholder location="classpath:resources.properties" />
+	<!-- <context:property-placeholder location="classpath:resources.properties" /> -->
 
 	<!-- 要使用注解必须添加此项 -->
-	<context:annotation-config />
+	<!-- <context:annotation-config /> -->
 
 	<!-- 数据库配置 -->
-	<import resource="classpath:config_database.xml" />
+	<!-- <import resource="classpath:config_database.xml" /> -->
 
-	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
+	<!-- <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" /> -->
 </beans>

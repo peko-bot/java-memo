@@ -10,7 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/* gbf素材基础信息 */
+/* gbf锟截材伙拷锟斤拷锟斤拷息 */
 @Entity
 @Table(name = "GBF_Item_Info")
 public class GBF_Item_Info implements Serializable {
@@ -21,28 +21,21 @@ public class GBF_Item_Info implements Serializable {
 	@Column(name = "id")
 	private Integer id;
 
-	// 批号，同一个id不同批次的数据
-	// 目前是user_id + 日期yyyyMMddHHmmss
 	@Column(name = "patch")
 	private String patch;
 
-	// 筛选时用的类型（暂时无用）
 	@Column(name = "category_type")
 	private String category_type;
 
-	// 材料icon id（暂时无用）
 	@Column(name = "image")
 	private Integer image;
 
-	// 是否显示在底部栏（暂时无用）
 	@Column(name = "is_display_select_item")
 	private Boolean is_display_select_item;
 
-	// 材料id
 	@Column(name = "item_id")
 	private Integer item_id;
 
-	// 材料名称
 	@Column(name = "name")
 	private String name;
 
@@ -52,7 +45,6 @@ public class GBF_Item_Info implements Serializable {
 	@Column(name = "user_id")
 	private Integer user_id;
 
-	// 入库时间
 	@Column(name = "create_time")
 	private Date create_time;
 

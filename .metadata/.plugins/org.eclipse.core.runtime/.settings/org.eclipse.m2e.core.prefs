@@ -1,6 +1,7 @@
+eclipse.m2.WorkspacelifecycleMappingsLocation=E\:/Github/Memo/.metadata/.plugins/org.eclipse.m2e.core/lifecycle-mapping-metadata.xml
 eclipse.m2.defaultRuntime=maven
-eclipse.m2.globalSettingsFile=E\:\\maven\\conf\\settings.xml
+eclipse.m2.globalSettingsFile=E\:\\apache-maven-3.5.3\\conf\\settings.xml
 eclipse.m2.runtimes=maven
-eclipse.m2.runtimesNodes/maven/location=F\:\\Java\\maven\\apache-maven-3.5.3
+eclipse.m2.runtimesNodes/maven/location=E\:\\apache-maven-3.5.3
 eclipse.m2.runtimesNodes/maven/type=EXTERNAL
 eclipse.preferences.version=1
