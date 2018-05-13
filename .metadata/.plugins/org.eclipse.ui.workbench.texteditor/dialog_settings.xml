@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="spring.version" key="selection"/>
+		<item value="MapperScannerConfigurer" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="spring.version"/>
-			<item value="sessionFactoryBean"/>
-			<item value="        &lt;property name=&quot;sqlSessionFactoryBeanName&quot; value=&quot;sessionFactory&quot; /&gt;"/>
-			<item value="sqlSessionFactoryBeanName"/>
-			<item value="checkoutTimeout"/>
-			<item value="autoCommitOnClose"/>
-			<item value="dispatcherServlet"/>
-			<item value="alibaba"/>
-			<item value="properties"/>
-			<item value="localRepository"/>
-			<item value="user.home"/>
-			<item value="compiler"/>
-			<item value="parent"/>
-			<item value="maven-archetype-plugin"/>
+			<item value="MapperScannerConfigurer"/>
+			<item value="c3p0"/>
+			<item value="dataSource"/>
 			<item value="testConnectionOnCheckin"/>
+			<item value="sessionFactoryBean"/>
+			<item value="javaee"/>
+			<item value="logging"/>
+			<item value="servlet-ap"/>
+			<item value="mysql"/>
+			<item value="exclusion"/>
+			<item value="&lt;exclusion&gt;"/>
+			<item value="tomcat7"/>
+			<item value="spring-we"/>
+			<item value="servlet"/>
+			<item value="javax.servlet-api"/>
 		</list>
 		<list key="replacehistory">
 			<item value="int"/>

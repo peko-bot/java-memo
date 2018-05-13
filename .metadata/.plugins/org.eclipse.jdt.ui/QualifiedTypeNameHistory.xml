@@ -35,4 +35,6 @@
     <fullyQualifiedTypeName name="com.alibaba.fastjson.JSONArray"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.alibaba.fastjson.util.Base64"/>
+    <fullyQualifiedTypeName name="org.apache.commons.codec.binary.Base64"/>
 </qualifiedTypeNameHistroy>
