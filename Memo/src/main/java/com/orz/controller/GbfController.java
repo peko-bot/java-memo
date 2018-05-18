@@ -14,17 +14,14 @@ import com.orz.service.GbfItemService;
 @Controller
 @RequestMapping("/gbf")
 public class GbfController {
-	// @Autowired
-	// private UserService userService;
-
 	@Autowired
 	private GbfItemService itemService;
 
-	@RequestMapping(value = "/test")
+	@RequestMapping(value = "/test", produces = { "application/json;charset=UTF-8" })
 	@ResponseBody
 	public String getPage(Model model, @RequestParam(value = "id") int id) {
-		// Base_User user = userService.getUserById(1);
 		GBF_Item_Info items = itemService.getById(id);
+		System.out.println(JSON.toJSONString(items));
 
 		return JSON.toJSONString(items);
 	}

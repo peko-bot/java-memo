@@ -22,7 +22,6 @@
 
 	<!-- 启动组件扫描 -->
 	<context:component-scan base-package="com.orz.controller" />
-	<!-- <context:component-scan base-package="com.orz.dao" /> -->
 	<context:component-scan base-package="com.orz.service" />
 	<context:component-scan base-package="com.orz.service.impl" />
 	<context:component-scan base-package="com.orz.po" />
