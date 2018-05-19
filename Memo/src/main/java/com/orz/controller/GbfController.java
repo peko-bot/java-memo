@@ -1,5 +1,7 @@
 package com.orz.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,9 +21,8 @@ public class GbfController {
 
 	@RequestMapping(value = "/test", produces = { "application/json;charset=UTF-8" })
 	@ResponseBody
-	public String getPage(Model model, @RequestParam(value = "id") int id) {
-		GBF_Item_Info items = itemService.getById(id);
-		System.out.println(JSON.toJSONString(items));
+	public String getPage(Model model, @RequestParam(value = "patch") String patch) {
+		List<GBF_Item_Info> items = itemService.getByPatch(patch);
 
 		return JSON.toJSONString(items);
 	}

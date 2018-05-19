@@ -1,5 +1,7 @@
 package com.orz.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -33,6 +35,10 @@ public class GbfItemServiceImpl implements GbfItemService {
 	// }
 
 	public GBF_Item_Info getById(int id) {
-		return giDao.get(id);
+		return giDao.getById(id);
+	}
+
+	public List<GBF_Item_Info> getByPatch(String patch) {
+		return giDao.getByPatch(patch);
 	}
 }

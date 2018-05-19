@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="com.sun.jmx.snmp.Timestamp"/>
     <fullyQualifiedTypeName name="java.sql.Timestamp"/>
     <fullyQualifiedTypeName name="java.security.Timestamp"/>
-    <fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="net.sf.json.JSONObject"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -23,7 +22,6 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
     <fullyQualifiedTypeName name="com.orz.po.Base_User"/>
-    <fullyQualifiedTypeName name="com.orz.po.GBF_Item_Info"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.CascadeType"/>
     <fullyQualifiedTypeName name="org.hibernate.metamodel.binding.CascadeType"/>
     <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
@@ -34,7 +32,9 @@
     <fullyQualifiedTypeName name="com.alibaba.fastjson.JSONObject"/>
     <fullyQualifiedTypeName name="com.alibaba.fastjson.JSONArray"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.alibaba.fastjson.util.Base64"/>
     <fullyQualifiedTypeName name="org.apache.commons.codec.binary.Base64"/>
+    <fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.orz.po.GBF_Item_Info"/>
 </qualifiedTypeNameHistroy>
