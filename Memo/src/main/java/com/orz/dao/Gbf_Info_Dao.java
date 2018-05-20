@@ -9,4 +9,5 @@ public interface Gbf_Info_Dao {
 
 	public List<GBF_Item_Info> getByPatch(String patch);
 
+	public void save(GBF_Item_Info gii);
 }

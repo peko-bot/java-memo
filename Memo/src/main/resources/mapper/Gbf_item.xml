@@ -8,4 +8,9 @@
     <select id="getByPatch" resultType="com.orz.po.GBF_Item_Info" parameterType="java.lang.String">
     	select * from GBF_Item_Info where patch = #{ patch }
     </select>
+    
+    <select id="save" parameterType="com.orz.po.GBF_Item_Info">
+    	insert into GBF_Item_Info (patch, category_type, image, is_display_select_item, item_id, name, number, user_id, create_time)
+    	values(#{ patch }, #{ category_type }, #{ image }, #{ is_display_select_item }, #{ item_id }, #{ name }, #{ number }, #{ user_id }, #{ create_time })
+    </select>
 </mapper>
