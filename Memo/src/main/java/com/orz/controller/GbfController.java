@@ -41,12 +41,15 @@ public class GbfController {
 		itemService.save(giis, user_id, new Date());
 
 		return "success";
-		// try {
-		// itemService.save(giis, user_id, new Date());
-		//
-		// return "success";
-		// } catch (Exception e) {
-		// return e.toString();
-		// }
+	}
+
+	// 获得指定名称及时段item的数据
+	@RequestMapping(value = "/s_charts", method = RequestMethod.GET)
+	@ResponseBody
+	public String s_charts(Model model, @RequestParam(value = "name") String name,
+			@RequestParam(value = "begin_time") Date beginTime, @RequestParam(value = "end_time") Date endTime) {
+		List<GBF_Item_Info> lists = itemService.getByNameAndTime(name, beginTime, endTime);
+
+		return null;
 	}
 }

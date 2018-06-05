@@ -42,4 +42,9 @@ public class GbfItemServiceImpl implements GbfItemService {
 	public List<GBF_Item_Info> getByPatch(String patch) {
 		return giDao.getByPatch(patch);
 	}
+
+	@Override
+	public List<GBF_Item_Info> getByNameAndTime(String name, Date beginTime, Date endTime) {
+		return giDao.getChartsByNameAndTime(name, beginTime, endTime);
+	}
 }

@@ -13,4 +13,8 @@
     	insert into GBF_Item_Info (patch, category_type, image, is_display_select_item, item_id, name, number, user_id, create_time)
     	values(#{ patch }, #{ category_type }, #{ image }, #{ is_display_select_item }, #{ item_id }, #{ name }, #{ number }, #{ user_id }, #{ create_time })
     </select>
+    
+    <select id="getChartsByNameAndTime">
+    
+    </select>
 </mapper>

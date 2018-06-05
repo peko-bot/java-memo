@@ -19,9 +19,7 @@
     <fullyQualifiedTypeName name="com.orz.service.GbfItemService"/>
     <fullyQualifiedTypeName name="com.orz.dao.Gbf_Info_Dao"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
-    <fullyQualifiedTypeName name="com.orz.po.Base_User"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.CascadeType"/>
     <fullyQualifiedTypeName name="org.hibernate.metamodel.binding.CascadeType"/>
     <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
@@ -37,4 +35,6 @@
     <fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.orz.po.GBF_Item_Info"/>
+    <fullyQualifiedTypeName name="com.orz.po.Base_User"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

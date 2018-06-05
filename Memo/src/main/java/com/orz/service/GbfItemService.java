@@ -11,4 +11,6 @@ public interface GbfItemService {
 	public GBF_Item_Info getById(int id);
 
 	public List<GBF_Item_Info> getByPatch(String patch);
+
+	public List<GBF_Item_Info> getByNameAndTime(String name, Date beginTime, Date endTime);
 }
