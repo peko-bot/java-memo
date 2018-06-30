@@ -12,13 +12,11 @@
     <fullyQualifiedTypeName name="com.sun.jmx.snmp.Timestamp"/>
     <fullyQualifiedTypeName name="java.sql.Timestamp"/>
     <fullyQualifiedTypeName name="java.security.Timestamp"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="net.sf.json.JSONObject"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.orz.dao.GenericDao"/>
     <fullyQualifiedTypeName name="com.orz.service.GbfItemService"/>
     <fullyQualifiedTypeName name="com.orz.dao.Gbf_Info_Dao"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.CascadeType"/>
     <fullyQualifiedTypeName name="org.hibernate.metamodel.binding.CascadeType"/>
@@ -36,5 +34,7 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.orz.po.GBF_Item_Info"/>
     <fullyQualifiedTypeName name="com.orz.po.Base_User"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
