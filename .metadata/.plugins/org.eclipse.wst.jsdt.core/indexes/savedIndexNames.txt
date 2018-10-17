@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+E:\Github\Memo\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-4008163173.index
-301807071.index
-2440121997.index
-2588681427.index
-3489714624.index
-806263434.index
