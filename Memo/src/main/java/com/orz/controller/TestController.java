@@ -36,6 +36,17 @@ public class TestController {
 		return arr.toString();
 	}
 
+	@RequestMapping("/readMidi")
+	@ResponseBody
+	public String readMidi(Model model) {
+		try {
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return "test";
+	}
+
 	// public static String encryptDES(String paramString1, String paramString2)
 	// throws Exception {
 	//
